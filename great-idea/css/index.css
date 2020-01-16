@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/*body styles */
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*nav styles */
+nav{
+	display: flex;
+	height: 14vh;
+	width: 100%;
+}
+nav a {
+	color: grey;
+	text-decoration: none;
+	justify-content: space-between;
+	padding: 3.5%;
+	align-items: center;
+}
+ nav a:last-child {
+	transform: translateY(-8%);
+}  
+
+/*header styles*/
+header {
+	margin-top: 2%;
+	width: 100%;
+	display: flex;
+}
+header #title {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; 
+}
+
+h1 {
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+
+header div {
+	width: 49%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+button {
+	border: 1px solid #4D4E4F;
+	color: black;
+	font-size: 15px;
+	width: 30%;
+	padding: 1%;
+	letter-spacing: 1px;
+}
+
+
+/*content styles */
+#content-top {
+	display: flex;
+	justify-content: space-between;
+}
+#content-top div p {
+	 line-height: 17px; 
+}  
+
+#content-top div {
+	width: 47%;
+}
+.middle-img {
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+#content-bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+#content-bottom div p {
+	height: 30%;
+	line-height: 17px;
+}
+
+#content-bottom div {
+	width: 32%;
+}
+hr {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+/*footer styles */
+
+footer {
+	height: 16vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.copyright {
+	text-align: center;
+	padding: 3% 1% 10%;
+}
