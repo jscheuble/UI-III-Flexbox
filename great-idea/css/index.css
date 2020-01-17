@@ -84,6 +84,7 @@ nav a {
 	padding: 3.5%;
 	align-items: center;
 	width: 100%;
+	margin-bottom: 1%;
 }
  nav a:last-child {
 	transform: translateY(-8%);
@@ -168,7 +169,7 @@ footer {
 img.services-header-img {
 	width: 100%;
 	margin-bottom: 3%;
-	margin-top: 1%;
+	margin-top: 3%;
 }
 hr.services-top {
 	margin-top: 5%;
@@ -226,4 +227,22 @@ section.facts div.column {
 }
 footer.services {
 	margin-top: 5%;
+}
+
+/* stretch goal styles */
+@media screen and (max-width: 800px) {
+	section.grid {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 100%;
+	}
+	section.facts {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	div.box {
+		width: 100%;
+	}
 }
